@@ -1,0 +1,24 @@
+3.  Array gelir,elave olaraq da bir target(hedef) var:
+Array da hansi elementlerin cemi bu targeti verirse hemin elementlerin indexlerini vermelidi
+(Meselen; array [5,10,15]   target:15       cavab olaraq [0,1] vermelidi)
+
+Pseudocode:
+
+Start
+Input n, a[n]
+Input target
+
+if a!=null
+
+	for i=1; i<n; i=i+1 :
+		for j=i+1; j<n; j=j+1 :
+			if t=a[i]+a[j]:
+				Print "i"
+				Print "j"
+		end for
+	end for
+
+else
+	print "no such pair"
+
+end

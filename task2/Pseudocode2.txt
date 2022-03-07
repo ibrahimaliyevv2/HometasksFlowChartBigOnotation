@@ -1,0 +1,29 @@
+2. Array gelir,birde subArray gelir. Subarray daolan elementlerin array de olub olmadighini yoxlamalisiniz.
+
+Pseudocode:
+
+Start
+Input n, a[n]
+Input s, sub[s]
+
+count = 0
+i=0
+j=0
+
+while i<n && j<s
+	if a[i]==sub[i]
+		count++
+		i++
+		j++
+	
+	else
+		i++
+		j++
+end while		
+
+if s==count
+	print "array a contains all elements of array sub"
+else
+	print "not subarray of a"
+
+end
